@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: #0f0e17;
+    border-bottom: 2px solid orange;
+}
+
+body{
+    background: #0f0e17;
+    overflow: hidden;
+}
+
+h1{
+    position: absolute;
+    height: 63px;
+    width: 190px;
+    left: 13%;
+    padding-top: 15px;
+    font-size: 40px;
+    font-family: 'Rambla';
+    color: orange;
+}
+
+.loginform{
+    display: flex;
+    position: absolute;
+    font-family: 'Cormorant-Garamond';
+    left: 58%;
+    top: 15px;
+}
+
+.loginform .email{
+    padding-left: 10px;
+}
+
+.loginform .password{
+    padding-left: 10px;
+}
+
+.loginform .email .emailfont{
+    font-size: 13px;
+    padding-bottom: 4px;
+    color: orange;
+    
+}
+
+.loginform .password .passwordfont{
+    font-size: 13px;
+    padding-bottom: 4px;
+    color: orange;
+}
+
+.login{
+    height: 27px;
+    width: 50px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 14px;
+    border-radius: 3px;
+    text-decoration: none;
+    outline: none;
+    background: #4b4c57;
+    color: white;
+    border: 0.3px solid orange;
+}
+
+.login:hover{
+    height: 27px;
+    width: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 14px;
+    border-radius: 2px;
+    outline: none;
+    background: black;
+    color: orange;
+    border: 1px solid orange;
+}
+
+.welcome{
+    font-family: 'Rambla';
+    position: absolute;
+    left: 57%;
+}
+
+.welcome .paragraph{
+    font-size: 30px;
+    margin: 15px 0;
+    color: white;
+}
+
+.welcome .paragraph1{
+    font-size: 14px;
+    margin: -17px 5px;
+    color: orange;
+}
+
+.welcome .registrationform input{
+    margin-top: 30px;
+    height: 32px;
+    width: 190px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid silver;
+    border-radius: 4px;
+    background-color: lightgray;
+}
+
+.welcome .registrationform .lastname{
+    margin-left: 15px;
+    background-color: lightgray;
+}
+
+.welcome .registrationform .email{
+    margin-top: 20px;
+    width: 410px;
+    background-color: lightgray;
+}
+
+.welcome .registrationform .password{
+    margin-top: 20px;
+    width: 410px;
+    background-color: lightgray;
+}
+
+.welcome .registrationform .password1{
+    margin-top: 20px;
+    width: 410px;
+    background-color: lightgray;
+}
+
+.welcome .registrationform .birthday{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: gainsboro;
+}
+
+.welcome .registrationform .birthdate{
+    margin-top: 5px;
+}
+
+.welcome .registrationform .month{
+    height: 28px;
+    font-family: 'Cormorant-Garamond';
+    background-color: lightgray;
+}
+
+.welcome .registrationform .day{
+    height: 28px;
+    margin-left: -5px;
+    font-family: 'Cormorant-Garamond';
+    background-color: lightgray;
+}
+
+.welcome .registrationform .year{
+    height: 28px;
+    margin-left: -5px;
+    font-family: 'Cormorant-Garamond';
+    background-color: lightgray;
+}
+
+.welcome .registrationform .tooltip{
+        position: absolute;
+        display: inline-block;
+        margin-left: 190px;
+        margin-top: -24px;
+        cursor: pointer;
+}
+
+.welcome .registrationform .tooltip a{
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+}
+
+.welcome .registrationform .tooltiptext{
+    font-size: 11px;
+    margin-left: 15px;
+    width: 120px;
+    visibility: hidden;
+    color: orange;
+    text-align: center;
+    position: absolute;
+}
+
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+}
+
+.welcome .registrationform .gender1{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: gainsboro;
+}
+
+.welcome .registrationform .gender2{
+    margin-top: -14px;
+    margin-left: -38px;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(53, 53, 53);
+}
+
+.welcome .registrationform input[type="radio"]{
+    height: 15px;
+    margin-left: -50px;
+    margin-top: 30px;
+}
+
+.welcome .registrationform input[value="female"]{
+    margin-left: -100px;
+}
+
+.welcome .registrationform input[value="custom"]{
+    margin-left: -100px;
+}
+
+.welcome .registrationform .male{
+    margin-left: 57px;
+    margin-top: -22px;
+    font-family: 'Cormorant-Garamond';
+    color: gainsboro;
+}
+
+.welcome .registrationform .female{
+    margin-left: 150px;
+    margin-top: -20px;
+    font-family: 'Cormorant-Garamond';
+    color: gainsboro;
+}
+
+.welcome .registrationform .custom{
+    margin-left: 243px;
+    margin-top: -20px;
+    font-family: 'Cormorant-Garamond';
+    color: gainsboro;
+}
+
+.welcome .registrationform .tooltip1{
+    position: absolute;
+    display: inline-block;
+    margin-left: 280px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+.welcome .registrationform .tooltip1 a{
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+}
+
+.welcome .registrationform .tooltiptext1{
+font-size: 11px;
+margin-left: 15px;
+width: 120px;
+visibility: hidden;
+color: orange;
+text-align: center;
+position: absolute;
+}
+
+.tooltip1:hover .tooltiptext1{
+visibility: visible;
+}
+
+.welcome .registrationform .ToU{
+    margin-top: 15px;
+    font-size: 12px;
+    width: 350px;
+    color: gray;
+    font-family: 'Cormorant-Garamond';
+}
+
+.welcome .registrationform .ToU a{
+    margin-top: 15px;
+    font-size: 12px;
+    width: 350px;
+    color: white;
+    font-family: 'Cormorant-Garamond';
+}
+
+.welcome .registrationform .ToU a:hover{
+    margin-top: 15px;
+    font-size: 12px;
+    width: 350px;
+    color: orange;
+    font-family: 'Cormorant-Garamond';
+}
+
+.welcome .registrationform .SignUp{
+    margin-top: 5px;
+    height: 40px;
+    width: 170px;
+    color: #a7a9be;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Rambla';
+    border: 1px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+    outline: none;
+    background: #4b4c57;
+    border-color: orange;
+}
+
+.welcome .registrationform .SignUp:hover{
+    margin-top: 5px;
+    height: 40px;
+    width: 170px;
+    color: orange;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Rambla';
+    border: 1px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+    outline: none;
+    background: black;
+    border-color: orange;
+}
+
+.welcome .registrationform .page{
+    margin-top: 15px;
+    font-family: 'Cormorant-Garamond';
+    color: gray;
+}
+
+.welcome .registrationform .page a{
+    margin-top: 15px;
+    font-family: 'Cormorant-Garamond';
+    color:gainsboro;
+}
+
+.welcome .registrationform .page a:hover{
+    margin-top: 15px;
+    font-family: 'Cormorant-Garamond';
+    color: orange;
+}
+
+section{
+    height: 614px;
+    width: 100%;
+    top: 800px;
+}
+
+.logo{
+    position: absolute;
+    left: 5%;
+    top: -5%;
+}
+
+.tagline{
+    font-family: 'Rambla';
+    margin-top: 160px;
+    margin-bottom: 35px;
+    color: orange;
+    font-size: 15px;
+}
+
+img{
+    width: 420px;
+    height: 420px;
+    margin-left: 100px;
+}
